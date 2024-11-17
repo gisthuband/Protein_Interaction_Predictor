@@ -6,7 +6,7 @@ A feature generator function was used to create composition features of the prot
 
 Exploratory data analysis was performed on the feature generated dataframe.
 
-A z-test was performed on the distribution of the different features, indicating that the sulfur content was statistically different between pairs that did interact and those that did not (p=0.05).
+A z-test was performed on the distribution of the different features, indicating that the sulfur content and aromatic content were the most statistically significant of the features generated (not p<0.05 however).
 
 A random forest model was able to achieve an F1 score of .97 with the training data.
 
