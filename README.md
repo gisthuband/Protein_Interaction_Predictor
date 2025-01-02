@@ -1,6 +1,6 @@
 This project aims to create a model able to predict whether or not proteins will interact or not based on their sequences.
 
-A kaggle dataset containing around 70,000 protein pairs, was used as the data set. [https://www.kaggle.com/datasets/spandansureja/ppi-dataset](url)
+A kaggle dataset containing around 70,000 protein pairs, was used as the data set. [https://www.kaggle.com/datasets/spandansureja/ppi-dataset]
 
 A feature generator function was used to create composition features of the protein sequences.  The featues generated are numerical encodings of the different groupings of amino acids (i.e. if a protein has 4 lysine resiudes and 6 histidine residues, then it would get a basic residues count of 10).
 
